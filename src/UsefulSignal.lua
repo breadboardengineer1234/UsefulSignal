@@ -1,4 +1,3 @@
-```
 --!optimize 2
 --!native
 
@@ -133,4 +132,3 @@ Signal.DisconnectAll = disconnectAll
 Conn.Disconnect = disconnect
 
 return Signal
-```
