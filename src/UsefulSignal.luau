@@ -6,7 +6,6 @@ export type Connection<T...> = {
 	Disconnect: (self: Connection<T...>) -> (),
 }
 export type Signal<T...> = {
-	new: () -> Signal<T...>,
 	Fire: (self: Signal<T...>, T...) -> (),
 	Wait: (self: Signal<T...>) -> T...,
 	Once: (self: Signal<T...>, callback: (T...) -> ()) -> Connection<T...>,
